@@ -1,5 +1,6 @@
 This project is written in C# in a generic development methodology to support any user.
 It consists of the following functions and each one returns a browser object of the browser that it is targeting:
+
 1- InvokeFirefox (Function that invokes and return a browser object of firefox.)
 	Parameters (All strings): "FirefoxBrowserPath" is where the browser is installed. Default value is: @"C:\Program Files\Mozilla Firefox\firefox.exe"
 				"FirefoxDriverPath" is where the firefox driver is located. "refer to seleniumHQ website for the download and more info about the drivers."
